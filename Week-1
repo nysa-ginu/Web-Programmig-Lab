@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Resume</title>
+</head>
+<body>
+	<p><h1 style="background-color:DodgerBlue;color:Tomato;text-align:center;">Nysa.P.Ginu</h1></p>
+	<p><b>Contacts</b>: 
+	<a href="www.google.com">email</a>  Mobile: 9533212255 </p>
+
+	<hr>
+
+	<h3 style="color:MediumSeaGreen;">Career objective</h3>
+
+	<p>Diligient Computer Science and Engineering major(9 CGPA) currently attending SRM Institute of Science and Technology. Aiming to leverage my abilities to successfully fill a role at your company. Frequently praised as hard-working by my peers, I can be relied upon to help your company achieve its goals.</p>
+
+	<hr>
+
+	<h3 style="color:MediumSeaGreen;">Eduction</h3>
+	<ol>
+	<li><b>SRM Institute of Science and Technology</b><br>
+	Chennai,Tamil Nadu<br>
+	<i>Bachelor of Technology in Computer Science and Engineering (Expected graduation May 2021)</i><br>
+	Additional Coursework<br>
+	<ul>
+		<li> Social Media Data Analytics - Coursera</li>
+		<li> IBM Data Science Specialization - Coursera</li>
+	</ul>
+	</li>
+	<li>
+	<b>Krishna Public School</b><br>
+	Raipur,Chattisgarh<br>
+	<i>CBSE Class 12th 2017</i><br>
+	<u>Percentage:</u> 83%<br>
+	</li>
+	<li>
+	<b>Krishna Public School</b><br>
+	Raipur,Chattisgarh<br>
+	<i>CBSE Class 10th 2015</i><br>
+	<u>CGPA:</u> 9.6<br>
+	</li>
+	</ol>
+
+	<hr>
+
+	<h3 style="color:MediumSeaGreen;">Professional Experience</h3>
+
+	<b>Intern</b><br>
+	Goel TMT, Raipur, Chattisgarh<br>
+
+	<hr>
+
+	<h3 style="color:MediumSeaGreen;">Personal Information</h3>
+
+	<b>Address:</b> Block no. 1234, ABC colony, Raipur, Chattisgarh<br>
+	<b>Hobbies:</b> singing, painting, Playing guitar<br>
+	<b>Languages spoken:</b> English, Hindi, Tamil<br>
+
+	<hr>
+
+	<h3 style="color:MediumSeaGreen;">Additional Skills</h3>
+
+	<ul>
+		<li>C++</li>
+		<li>Python</li>
+		<li>Java</li>
+	</ul>
+
+	<hr>
+
+</body>
+</html>
