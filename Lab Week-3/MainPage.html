@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main Page</title>
+   <script>
+    function MESSAGE()
+    {
+      window.alert("Main Page is loaded.");
+    }
+    function bigImg(x)
+    {
+      x.style.height = "150px";
+      x.style.width = "85%";
+    }
+    function normalImg(x) 
+    {
+      x.style.height = "100px";
+      x.style.width = "70%";
+    }
+    function VALIDATE()
+    {
+      window.alert("You are navigating to contact us page. Click on Ok if you want to proceed.");
+    }
+  </script>
+	<style type="text/css">
+		body {
+  font-family: Arial;
+  padding: 20px;
+  background: #EDDA74;
+}
+
+
+header {
+  padding: 30px;
+  border: none;
+  font-size: 40px;
+  text-align: center;
+  background-image: url("https://cdn.pixabay.com/photo/2016/04/30/13/12/texture-1362879__340.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.leftcolumn {
+  float: left;
+  width: 74%;
+}
+
+
+.rightcolumn {
+  float: right;
+  width: 24%;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #FFFFB0;
+  margin-top: 20px;
+}
+
+	</style>
+</head>
+<body onload="MESSAGE()">
+	<header>
+  <h2>Blogging Portal</h2>
+</header>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Blog post on Books.</h2>
+      <h5>This blog post talks about books, both fiction and non-fiction, Aug 12, 2020</h5>
+      <img src="https://thumbs.dreamstime.com/t/books-isolated-white-background-d-illustration-54695642.jpg" style="width:90%;height:200px;">
+      <p>“Sometimes, you read a book and it fills you with this weird evangelical zeal, and you become convinced that the shattered world will never be put back together unless and until all living humans read the book.” <a href="https://www.google.com">Read More...</a></p>
+    </div>
+    <div class="card">
+      <h2>Blog post on Paintings.</h2>
+      <h5>This blog post talks about Paintings, both contemporary and abstract, Aug 13, 2020</h5>
+      <img src="https://images.wallpapersden.com/image/download/minimalism-birds-mountains-trees-forest_59842_2560x1080.jpg" style="width:90%;height:200px;">
+      <p>Painting is a real language for me, with grammer and nuances that challenge me beyond any other intellectual or creative pursuit that I have ever experienced. For some people paint is simply a material, another medium, and a very traditional medium at that. For others it is the Bible — the Holy Writ... <a href="https://www.google.com">Read More...</a></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Us</h2>
+      <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="curator.jpg" alt="Image of the Blogger" style="height:100px; width: 70%">
+      <p>We are a reading, painting and a music enthusiasts, who wants to help people through these medium.</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <a href="https://www.google.com"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://thumbs.dreamstime.com/t/books-isolated-white-background-d-illustration-54695642.jpg" style="width:90%;height: 100px"></a><br>
+      <a href="https://www.google.com"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://images.wallpapersden.com/image/download/minimalism-birds-mountains-trees-forest_59842_2560x1080.jpg" style="width:90%;height: 100px;"></a><br>
+      <a href="https://www.google.com"><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://previews.123rf.com/images/ksanagraphica/ksanagraphica1803/ksanagraphica180300195/97092719-notes-on-the-horizontal-wavy-path-music-decoration-element-isolated-on-the-white-background-.jpg" style="width:90%;height: 100px;"></a>
+    </div>
+    <div class="card">
+      <h3>Follow Us</h3>
+      <p><a href="www.google.com">Email</a><br>
+      Contact no. - 01383265922</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <a href="contact.html" onclick="VALIDATE()">Contact Us Here.</a>
+  <h3>Copyright Reserved:2020</h3>
+</footer>
+</body>
+</html>
