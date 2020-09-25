@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>image map</title>
+	<script type="text/javascript">
+		function VALIDAT()
+		{
+			window.alert("You are navigating to contact us page. Click on Ok if you want to proceed.")
+		}
+		function bigImg(x)
+  		{
+     		x.style.height = "500px";
+     		x.style.width = "700px";
+  		}
+  		function normalImg(x) 
+  		{
+    		x.style.height = "400px";
+    		x.style.width = "600px";
+  		}
+	</script>
+	<style type="text/css">
+		body {
+		  font-family: Arial;
+		  padding: 20px;
+		  background: #EDDA74;
+		}
+		header {
+		  padding: 30px;
+		  font-size: 40px;
+		  border: none;
+		  text-align: center;
+		  background-image: url("https://cdn.pixabay.com/photo/2016/04/30/13/12/texture-1362879__340.jpg");
+		  background-repeat: no-repeat;
+		  background-attachment: fixed;
+		  background-size: cover;
+		}
+		.center{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+		}
+	</style>
+</head>
+<body>
+	<header>
+  		<h2>Blogging Portal</h2>
+    </header>
+
+    <p>This is a image Map. If you click on the laptop it will take you to the page from where you can contact us. And if you click on the book, it will take you to the main page of the blog.</p>
+
+    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="imagemap1.jpg" alt="Workplace" usemap="#workmap" class="center">
+    <map name="workmap">
+  		<area shape="rect" coords="189,29,394,226" alt="Computer" href="contact.html" onclick="VALIDAT()">
+  		<area shape="rect" coords="199,320,388,399" alt="book" href="MainPage.html" >
+	</map>
+</body>
+</html>
