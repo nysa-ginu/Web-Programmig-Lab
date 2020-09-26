@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="contact.css">
+  <script> 
+function Validation()                                    
+{ 
+    var name = document.forms["RegForm"]["name"];               
+    var email = document.forms["RegForm"]["email"];    
+    var mobile = document.forms["RegForm"]["mob"]; 
+    var com = document.forms["RegForm"]["comment"];   
+   
+    if (name.value == "")                                  
+    { 
+        window.alert("Please enter your name."); 
+        name.focus(); 
+        return false; 
+    } 
+    
+       
+    if (email.value == "")                                   
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        email.focus(); 
+        return false; 
+    } 
+   
+    if (mobile.value == "")                           
+    { 
+        window.alert("Please enter your telephone number."); 
+        mobile.focus(); 
+        return false; 
+    } 
+
+    if (com.value == "")                                  
+    { 
+        window.alert("Please enter your reason for contacting us."); 
+        com.focus(); 
+        return false; 
+    } 
+   
+    return true; 
+}</script>
+</head>
+
+<body>
+  <div id="header">
+	  <div class="title">CONTACT US</div>
+  </div>  
+
+  <div class="contact">
+    <form name="RegForm" action="action.php" method="post" onsubmit="return Validation()" >
+      <input type="text" name="name" placeholder="Enter your name" ><br>
+      <input type="email" name="email" placeholder="Enter your Email Address"><br>
+      <input type="number" name="mob" placeholder="Enter your mobile number"><br>
+      <textarea rows="4" cols="50" name="comment" placeholder="Enter your comments(Max:300 Words)" maxlength="300"></textarea><br>
+
+      <input class="contact-submit" type="submit" name="contactus" value="Send">
+    </form>
+  </div>
+</body>
