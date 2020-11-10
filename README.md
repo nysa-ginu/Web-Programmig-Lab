@@ -8,5 +8,5 @@ Week-2 Create a webpage using html and css<br>
 Week-3 Use Javascript for validation <br>
 Week-4 Create a form <br>
 Week-5 Establish a database connectivity using PHP.<br>
-Week-6 Use Ajax Components.
-Week-7 Use Servlet, XML and JSP.
+Week-6 Use Ajax Components.<br>
+Week-7 Use Servlet, XML and JSP.<br>
